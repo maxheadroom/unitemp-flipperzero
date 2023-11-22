@@ -64,8 +64,11 @@ typedef struct {
     int32_t t_fine;
 } BMx280_instance;
 
+/**
 extern const SensorType BMP280;
 extern const SensorType BME280;
+*/
+
 /**
  * @brief Выделение памяти и установка начальных значений датчика BMP280
  * @param sensor Указатель на создаваемый датчик
