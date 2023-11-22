@@ -73,8 +73,9 @@ typedef struct {
     //Корректировочное значение температуры
     int32_t t_fine;
 } BME680_instance;
-
+/** this seems redundant
 extern const SensorType BMP280;
+*/
 extern const SensorType BME680;
 /**
  * @brief Выделение памяти и установка начальных значений датчика BMP280
